@@ -3,7 +3,7 @@ using StudentsRecords.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connStr = builder.Configuration.GetConnectionString("Students");
+var connStr = builder.Configuration.GetConnectionString("StudentsDOnici4297");
 
 builder.Services.AddDbContext<StudentDbContext>(options => options.UseSqlServer(connStr));
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Desktop\\PROG2230\\Assignments\\Assignment1\\StudentsRecords\\StudentsRecords\\StudentsRecords.csproj": {}
+    "C:\\Users\\danie\\projects\\RecordsWeb\\StudentsRecords\\StudentsRecords.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Desktop\\PROG2230\\Assignments\\Assignment1\\StudentsRecords\\StudentsRecords\\StudentsRecords.csproj": {
+    "C:\\Users\\danie\\projects\\RecordsWeb\\StudentsRecords\\StudentsRecords.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Desktop\\PROG2230\\Assignments\\Assignment1\\StudentsRecords\\StudentsRecords\\StudentsRecords.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\projects\\RecordsWeb\\StudentsRecords\\StudentsRecords.csproj",
         "projectName": "StudentsRecords",
-        "projectPath": "C:\\Users\\danie\\Desktop\\PROG2230\\Assignments\\Assignment1\\StudentsRecords\\StudentsRecords\\StudentsRecords.csproj",
+        "projectPath": "C:\\Users\\danie\\projects\\RecordsWeb\\StudentsRecords\\StudentsRecords.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Desktop\\PROG2230\\Assignments\\Assignment1\\StudentsRecords\\StudentsRecords\\obj\\",
+        "outputPath": "C:\\Users\\danie\\projects\\RecordsWeb\\StudentsRecords\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,8 @@
               "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
             }

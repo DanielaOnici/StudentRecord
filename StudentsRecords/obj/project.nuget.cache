@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HhXy5LqpEqO6kMcYq4DMaczCsdefHMxrMEWB7DCbGhNEPe2exhRGixstVvdZ1DYvAi214sKu4DL52ZMWAcDkEQ==",
+  "dgSpecHash": "MgY2kxOTIq/aAOtd4/Bz7ovVUh26RntOwKy1qNcJYC+arxhnTvtirn+Gplg5qBlLq5vUzt7lu4GDOUYiymwSgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\Desktop\\PROG2230\\Assignments\\Assignment1\\StudentsRecords\\StudentsRecords\\StudentsRecords.csproj",
+  "projectFilePath": "C:\\Users\\danie\\projects\\RecordsWeb\\StudentsRecords\\StudentsRecords.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danie\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

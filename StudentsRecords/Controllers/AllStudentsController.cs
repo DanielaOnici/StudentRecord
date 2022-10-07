@@ -12,6 +12,7 @@ namespace StudentsRecords.Controllers
 
         public IActionResult AllStudents()
         {
+
             return View();
         }
 
