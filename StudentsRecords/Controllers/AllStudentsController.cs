@@ -12,8 +12,8 @@ namespace StudentsRecords.Controllers
 
         public IActionResult AllStudents()
         {
-
-            return View();
+            List<Student> student = _studentDbContext.Students.OrderBy(s => s.FirstName).ToList();
+            return View(student);
         }
 
         private StudentDbContext _studentDbContext;

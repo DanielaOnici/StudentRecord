@@ -15,8 +15,8 @@ namespace StudentsRecords.Entities
         {
             // And then with some movies:
             modelBuilder.Entity<Student>().HasData(
-                new Student() { StudentId = 1, FirstName = "Bart", LastName = "Simpson", DateOfBirth = Convert.ToDateTime(05/31/1971), GPA = 2.7 },
-                new Student() { StudentId = 2, FirstName = "Lisa", LastName = "Simpson", DateOfBirth = Convert.ToDateTime(08/05/1973), GPA = 4.0 }
+                new Student() { StudentId = 1, FirstName = "Bart", LastName = "Simpson", DateOfBirth = Convert.ToDateTime("05/31/1971"), GPA = 2.7 },
+                new Student() { StudentId = 2, FirstName = "Lisa", LastName = "Simpson", DateOfBirth = Convert.ToDateTime("08/05/1973"), GPA = 4.0 }
             );
         }
     }

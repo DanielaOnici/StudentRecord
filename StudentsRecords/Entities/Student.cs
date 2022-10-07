@@ -18,7 +18,7 @@ namespace StudentsRecords.Entities
         [Required(ErrorMessage = "Please add the birth date.")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime? DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         // Requires the GPA between 0 to 4
         [Required(ErrorMessage = "Please add your GPA.")]
